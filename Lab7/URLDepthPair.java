@@ -7,9 +7,9 @@ public class URLDepthPair {
 	public static final String HTML_EXTENSION = ".html";
 	public static final String URL_PREFIX_HTTP = "http://";
 	public static final String PREFIX_PATTERN = "(http://)";
-	public static final String CONST1 = "([\\da-zà-ÿ\\.-]+)\\.([a-zà-ÿ\\.]{2,6})";
-	public static final String CONST2 = "([/\\wà-ÿ\\.-]*)*\\/?";
-	public static final String CONST3 = "\\.[\\wà-ÿ\\-]+$";
+	public static final String CONST1 = "([\\da-zа-я\\.-]+)\\.([a-zа-я\\.]{2,6})";
+	public static final String CONST2 = "([/\\wа-я\\.-]*)*\\/?";
+	public static final String CONST3 = "\\.[\\wа-я\\-]+$";
 	public static final String URL_PATTERN = PREFIX_PATTERN+CONST1+CONST2;
 
 	public String url;
